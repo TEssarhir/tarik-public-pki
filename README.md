@@ -33,12 +33,15 @@ Private keys are not stored in this repository.
 **Purpose:** Digital signatures and S/MIME signing
 **Algorithm:** ECC P-256
 **Identity:** Tarik ESSARHIR
-**Email:** es.tarik@icloud.com
+**Email identities:**
+- es.tarik@icloud.com
+- essarhir.t@outlook.com
+
 **Certificate:** [`certificates/9c-digital-signature.pem`](certificates/9c-digital-signature.pem)
 
 **SHA-256 fingerprint:**
 
-`19:1A:86:30:A6:4E:E4:37:30:20:39:A1:5E:7F:10:1E:8D:0C:4C:77:BF:13:E1:7D:3C:1F:CB:33:0C:45:61:E2`
+`4C:4F:C6:ED:77:6E:BE:36:BB:C8:BC:3A:DF:E1:5F:B9:D7:3F:36:1A:0E:BF:1A:16:80:2B:34:1A:47:C5:30:9C`
 
 ### PIV 9d — Key Management
 
