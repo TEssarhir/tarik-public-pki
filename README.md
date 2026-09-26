@@ -41,7 +41,7 @@ Private keys are not stored in this repository.
 
 **SHA-256 fingerprint:**
 
-`4C:4F:C6:ED:77:6E:BE:36:BB:C8:BC:3A:DF:E1:5F:B9:D7:3F:36:1A:0E:BF:1A:16:80:2B:34:1A:47:C5:30:9C`
+`79:00:53:D5:59:4B:44:3D:10:6A:71:41:62:0E:A5:CC:DA:A3:39:27:C8:3E:47:B6:F8:6F:D4:99:83:DF:4F:84`
 
 ### PIV 9d — Key Management
 
@@ -78,6 +78,28 @@ When a certificate is renewed, replaced, or retired, its public certificate may 
 Git history provides an additional historical record of certificate publication and changes.
 
 Git/GitHub history should not be interpreted as a trusted or qualified timestamping service.
+
+## Version History
+
+### v1.1 — 26 September 2026
+
+The PIV 9c Digital Signature certificate was renewed to extend its validity period.
+
+- The certificate validity was extended from 27 December 2028 to 23 September 2036.
+
+- The existing ECC P-256 private key in YubiKey slot 9c was preserved and was not regenerated or replaced.
+
+- The S/MIME email identities and certificate purpose remain unchanged.
+
+- A new certificate was issued by the same Tarik ESSARHIR Personal CA.
+
+- The SHA-256 certificate fingerprint changed as a result of the certificate renewal.
+
+Previous certificate versions remain available through the Git history and version tags.
+
+### v1.0
+
+Initial published version of the PKI repository.
 
 ## Verification
 
